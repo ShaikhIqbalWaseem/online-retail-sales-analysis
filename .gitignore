@@ -22,8 +22,12 @@ venv/
 # Data Files
 # -------------------------
 # Raw or large datasets should NOT be committed
-data/raw/*
-!data/raw/.gitkeep
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
 
 # Processed data (optional)
 data/processed/*
