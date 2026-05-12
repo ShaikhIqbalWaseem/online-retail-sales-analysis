@@ -8,9 +8,9 @@ This repository contains a collaborative data science project focused on cleanin
 <h2>🚀 Project Architecture</h2>
 
 <h3>🔷 Medallion Data Layers</h3>
-1. **Bronze** — Raw ingested data (no cleaning)
-2. **Silver** — Cleaned, validated, structured data
-3. **Gold** — Aggregated, business‑ready analytics tables
+1. Bronze — Raw ingested data (no cleaning)<br>
+2. Silver — Cleaned, validated, structured data<br>
+3. Gold — Aggregated, business‑ready analytics tables<br>
 
 <h2> 🧪 Environments (Git Branches)</h2>
 
