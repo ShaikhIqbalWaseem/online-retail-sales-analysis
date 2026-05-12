@@ -5,6 +5,21 @@ Data cleaning, exploratory analysis, and visualization of an online retail sales
 
 This repository contains a collaborative data science project focused on cleaning, analyzing, and visualizing online retail sales and customer transaction data. The goal is to build a reproducible workflow that uncovers insights about customer behavior, product performance, and sales trends. The project uses a team‑friendly Git workflow with branches, pull requests, and code reviews to ensure smooth collaboration and zero merge conflicts.
 
+<h2>🚀 Project Architecture</h2>
+
+<h3>🔷 Medallion Data Layers</h3>
+1. **Bronze** — Raw ingested data (no cleaning)
+2. **Silver** — Cleaned, validated, structured data
+3. **Gold** — Aggregated, business‑ready analytics tables
+
+<h2> 🧪 Environments (Git Branches)</h2>
+
+| Environment | Branch | Purpose |<br>
+|------------|--------|---------|<br>
+| **DEV** | `dev` | Experiments, early development, trial notebooks |<br>
+| **UAT** | `uat` | Testing, validation, review |<br>
+| **PRD** | `main` | Stable, approved production code |<br>
+
 <h2>📦 Dataset Description</h2>
 
 The dataset includes transaction‑level online retail sales records, containing:
@@ -43,6 +58,7 @@ This project uses a modern Python data science and visualization stack:
 8. Jupyter Notebooks
 9. Git & GitHub
 10. VS Code / JupyterLab
+11. Medallion Architecture Principles
 
 
 <h2>📁 Folder Structure</h2>
@@ -50,20 +66,22 @@ This project uses a modern Python data science and visualization stack:
 online-retail-sales-analysis/<br>
 │<br>
 ├── data/<br>
-│   ├── raw/                # Original dataset (read-only)<br>
-│   └── processed/          # Cleaned datasets<br>
+│   ├── bronze/                # Original dataset (read-only)<br>
+│   ├── silver/          # Cleaned datasets<br>
+|   └── gold/          # Business-ready datasets<br>
 │<br>
 ├── notebooks/<br>
-│   ├── 01_data_cleaning.ipynb<br>
-│   ├── 02_eda.ipynb<br>
-│   └── 03_visualizations.ipynb<br>
+│   ├── bronze_ingestion.ipynb<br>
+│   ├── silver_cleaning.ipynb<br>
+│   └── gold_analytics.ipynb<br>
 │<br>
 ├── dashboards/<br>
 │   └── retail_dashboard.py # Dash app<br>
 │<br>
 ├── scripts/<br>
-│   ├── clean_data.py<br>
-│   └── visualize.py<br>
+│   ├── bronze_ingest.py<br>
+│   ├── silver_clean.py<br>
+│   └── gold_transform.py<br>
 │<br>
 ├── docs/<br>
 │   └── project_plan.md<br>

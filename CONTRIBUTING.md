@@ -6,6 +6,37 @@ Thank you for contributing to online-retail-sales-analysis. This project follows
 
 Please read these guidelines before making changes.
 
+## 🧪 Environments (Branches)
+
+### 🔹 DEV (`dev`)
+- All development happens here  
+- You may push directly  
+- Trial files and experiments are allowed  
+- Create feature branches from here
+
+### 🔹 UAT (`uat`)
+- Protected branch  
+- No direct pushes  
+- Only PRs allowed  
+- Used for testing and validation
+
+### 🔹 PRD (`main`)
+- Fully protected  
+- No direct pushes  
+- Only approved PRs from UAT may merge
+
+
+---
+
+## 🔀 Branching Workflow
+
+1. Pull latest `dev`
+2. Create a feature branch
+3. Do your work  
+4. Commit and push  
+5. Open a PR → `dev`  
+6. After testing, maintainers will promote:
+
 <h2>🧱 Project Workflow Overview</h2>
 
 All contributors must:
@@ -53,6 +84,57 @@ Examples:
 2. viz: added monthly sales plot using plotly
 3. feat: created Dash layout for dashboard
 
+
+---
+
+## 📁 Data Rules
+
+### ❌ Do NOT commit:
+- Raw data  
+- Cleaned data  
+- Aggregated data  
+- Large files  
+- Secrets or credentials  
+
+### ✔️ Allowed:
+- `.gitkeep` files  
+- Scripts  
+- Notebooks  
+- Documentation  
+
+---
+
+## 🧼 Code Quality Rules
+- Use relative paths (`data/bronze/...`)
+- Clean notebooks before committing
+- Use meaningful commit messages
+- Keep functions modular and reusable
+- Follow PEP8 where possible
+
+---
+
+## 📝 Pull Request Requirements
+Every PR must include:
+- Clear title  
+- Summary of changes  
+- Screenshots (if visualization changes)  
+- Confirmation that code runs  
+- No trial files or temporary notebooks  
+
+PRs into UAT or PRD require approval.
+
+---
+
+## 🧹 Trial Files
+Trial files are allowed **only in DEV**.  
+They must be removed before PRs into UAT or PRD.
+
+Maintainers will reject PRs containing:
+- `test.ipynb`
+- `temp.py`
+- `random_experiment.ipynb`
+- Any non‑project files
+
 <h2>🔄 Pull Request Process</h2>
 
 Before submitting a PR:
@@ -83,3 +165,9 @@ PR Requirements
 3. Avoid hard‑coding file paths
 4. Keep notebooks clean and organized
 5. Move reusable logic into /scripts
+
+---
+
+## 🙌 Thank You
+Following these rules keeps the project clean, professional, and easy for everyone to collaborate.
+
