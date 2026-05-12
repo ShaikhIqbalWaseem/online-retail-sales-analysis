@@ -1,11 +1,11 @@
 # online-retail-sales-analysis
 Data cleaning, exploratory analysis, and visualization of an online retail sales customer dataset. Includes preprocessing workflows, customer behavior insights, sales trend analysis, and reproducible notebooks for collaborative data analysis.
 
-📊 Project Overview
+<h2>📊 Project Overview</h2>
 
 This repository contains a collaborative data science project focused on cleaning, analyzing, and visualizing online retail sales and customer transaction data. The goal is to build a reproducible workflow that uncovers insights about customer behavior, product performance, and sales trends. The project uses a team‑friendly Git workflow with branches, pull requests, and code reviews to ensure smooth collaboration and zero merge conflicts.
 
-📦 Dataset Description
+<h2>📦 Dataset Description</h2>
 
 The dataset includes transaction‑level online retail sales records, containing:
 1. Invoice numbers
@@ -19,7 +19,7 @@ The dataset includes transaction‑level online retail sales records, containing
 This dataset enables analysis of customer behavior, product performance, and time‑based sales trends.
 
 
-🎯 Project Objectives
+<h2>🎯 Project Objectives</h2>
 
 1. Clean and preprocess raw retail transaction data
 2. Handle missing values, duplicates, and outliers
@@ -30,7 +30,7 @@ This dataset enables analysis of customer behavior, product performance, and tim
 7. Document insights and findings clearly
 
 
-🧱 Tech Stack
+<h2>🧱 Tech Stack</h2>
 
 This project uses a modern Python data science and visualization stack:
 1. NumPy — numerical computing
@@ -45,36 +45,35 @@ This project uses a modern Python data science and visualization stack:
 10. VS Code / JupyterLab
 
 
-📁 Folder Structure
+<h2>📁 Folder Structure</h2>
 
-Code
-online-retail-sales-analysis/
-│
-├── data/
-│   ├── raw/                # Original dataset (read-only)
-│   └── processed/          # Cleaned datasets
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   └── 03_visualizations.ipynb
-│
-├── dashboards/
-│   └── retail_dashboard.py # Dash app
-│
-├── scripts/
-│   ├── clean_data.py
-│   └── visualize.py
-│
-├── docs/
-│   └── project_plan.md
-│
-├── .gitignore
-├── CONTRIBUTING.md
-└── README.md
+online-retail-sales-analysis/<br>
+│<br>
+├── data/<br>
+│   ├── raw/                # Original dataset (read-only)<br>
+│   └── processed/          # Cleaned datasets<br>
+│<br>
+├── notebooks/<br>
+│   ├── 01_data_cleaning.ipynb<br>
+│   ├── 02_eda.ipynb<br>
+│   └── 03_visualizations.ipynb<br>
+│<br>
+├── dashboards/<br>
+│   └── retail_dashboard.py # Dash app<br>
+│<br>
+├── scripts/<br>
+│   ├── clean_data.py<br>
+│   └── visualize.py<br>
+│<br>
+├── docs/<br>
+│   └── project_plan.md<br>
+│<br>
+├── .gitignore<br>
+├── CONTRIBUTING.md<br>
+└── README.md<br>
 
 
-🔄 Collaboration Workflow
+<h2>🔄 Collaboration Workflow</h2>
 
 This project uses a branch‑based workflow to avoid conflicts and ensure clean merges.
 
@@ -97,7 +96,7 @@ This project uses a branch‑based workflow to avoid conflicts and ensure clean 
    All changes must go through a PR and be approved before merging.
 
 
-🤝 Contribution Guidelines
+<h2>🤝 Contribution Guidelines</h2>
 
 See CONTRIBUTING.md for:
 
@@ -107,7 +106,7 @@ See CONTRIBUTING.md for:
 4. Code formatting standards
 
 
-📈 Expected Insights
+<h2>📈 Expected Insights</h2>
 
 This project aims to uncover:
 
@@ -118,7 +117,7 @@ This project aims to uncover:
 5. Customer segmentation opportunities
 6. Interactive dashboards for business insights
 
-🧪 Future Enhancements
+<h2>🧪 Future Enhancements</h2>
 
 1. RFM customer segmentation
 2. Time‑series forecasting
