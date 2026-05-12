@@ -1,0 +1,74 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# -------------------------
+# Data Files
+# -------------------------
+# Raw or large datasets should NOT be committed
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed data (optional)
+data/processed/*
+!data/processed/.gitkeep
+
+# CSV, Excel, Parquet (optional — uncomment if needed)
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
+
+# -------------------------
+# Logs & Cache
+# -------------------------
+*.log
+*.tmp
+*.cache/
+.cache/
+pip-log.txt
+
+# -------------------------
+# IDE / Editor Files
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Dash / Plotly
+# -------------------------
+# Auto-generated assets
+assets/*.map
+assets/*.js.map
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+*.env
+.env.*
+*.secret
+*.key
