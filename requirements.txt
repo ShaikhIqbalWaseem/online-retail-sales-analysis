@@ -1,0 +1,4 @@
+seaborn==0.13.2
+plotly>=5.0.0
+pycountry>=22.3.5
+nbformat>=4.2.0
